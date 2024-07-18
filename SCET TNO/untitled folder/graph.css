@@ -1,0 +1,29 @@
+
+#gauge-container {
+    position: relative;
+    width: 300px;
+    height: 160px;
+    margin: auto;
+}
+.gauge-label {
+    position: absolute;
+    font-size: 12px;
+    color: #000;
+}
+.label-left {
+    left: 30px;
+    top: 100%;
+    font-size: 18px;
+    transform: translateY(-50%);
+}
+.label-right {
+    right: 30px;
+    top: 100%;
+    font-size: 18px;
+    transform: translateY(-50%);
+}
+.label-middle {
+    left: 46%;
+    top: 96%;
+    font-size: 18px;
+}
